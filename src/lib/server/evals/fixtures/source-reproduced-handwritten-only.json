@@ -1,0 +1,50 @@
+{
+  "name": "source-reproduced-handwritten-only",
+  "description": "Exercise with only handwritten answers (student worksheet)",
+  "pageInstructions": ["Complete the sentences."],
+  "availableBank": ["red", "blue", "green", "yellow"],
+  "exerciseItems": [
+    {
+      "itemNumber": 1,
+      "exerciseType": "fill_blank",
+      "instructions": "Complete the sentences.",
+      "questionText": "The sky is _____.",
+      "blankLocations": [11],
+      "choices": null,
+      "wordBank": ["red", "blue", "green", "yellow"],
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "blue", "source": "handwritten", "location": "blank", "confidence": 0.82 }
+      ],
+      "handwrittenAnswers": [
+        { "value": "blue", "source": "handwritten", "location": "blank", "confidence": 0.82 }
+      ],
+      "printedAnswers": [],
+      "answerMarkers": [],
+      "confidence": 0.82,
+      "pageLabel": "Page 19",
+      "sourceOrder": 1
+    },
+    {
+      "itemNumber": 2,
+      "exerciseType": "fill_blank",
+      "instructions": "Complete the sentences.",
+      "questionText": "The grass is _____.",
+      "blankLocations": [13],
+      "choices": null,
+      "wordBank": ["red", "blue", "green", "yellow"],
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "green", "source": "handwritten", "location": "blank", "confidence": 0.79 }
+      ],
+      "handwrittenAnswers": [
+        { "value": "green", "source": "handwritten", "location": "blank", "confidence": 0.79 }
+      ],
+      "printedAnswers": [],
+      "answerMarkers": [],
+      "confidence": 0.79,
+      "pageLabel": "Page 19",
+      "sourceOrder": 2
+    }
+  ]
+}

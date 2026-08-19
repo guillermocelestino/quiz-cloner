@@ -1,0 +1,55 @@
+[
+  {
+    "id": "content-1",
+    "factKind": "ExerciseItem",
+    "content": "_ _ ag",
+    "sentence": "_ _ ag",
+    "blankToken": "_ _",
+    "wordBank": ["fl-", "gl-", "sl-"],
+    "proposedAnswer": "fl-",
+    "pictureCue": "flag",
+    "pageLabel": "Page 1",
+    "included": true,
+    "sourceOrder": 1
+  },
+  {
+    "id": "content-2",
+    "factKind": "DeclarativeFact",
+    "content": "The globe is a model of Earth.",
+    "sentence": "The globe is a model of Earth.",
+    "pageLabel": "Page 1",
+    "included": true,
+    "sourceOrder": 2
+  },
+  {
+    "id": "content-3",
+    "factKind": "DeclarativeFact",
+    "content": "A clock tells us the time.",
+    "sentence": "A clock tells us the time.",
+    "pageLabel": "Page 1",
+    "included": true,
+    "sourceOrder": 3
+  },
+  {
+    "id": "content-4",
+    "factKind": "DeclarativeFact",
+    "content": "A flag waves in the wind.",
+    "sentence": "A flag waves in the wind.",
+    "pageLabel": "Page 1",
+    "included": true,
+    "sourceOrder": 4
+  },
+  {
+    "id": "content-5",
+    "factKind": "ExerciseItem",
+    "content": "_ _ ock",
+    "sentence": "_ _ ock",
+    "blankToken": "_ _",
+    "wordBank": ["bl-", "cl-", "pl-"],
+    "proposedAnswer": "cl-",
+    "pictureCue": "clock",
+    "pageLabel": "Page 1",
+    "included": true,
+    "sourceOrder": 5
+  }
+]

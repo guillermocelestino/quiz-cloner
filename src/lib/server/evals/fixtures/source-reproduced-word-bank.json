@@ -1,0 +1,50 @@
+{
+  "name": "source-reproduced-word-bank",
+  "description": "Word bank exercise with words to choose from",
+  "pageInstructions": ["Use the word bank to complete the sentences."],
+  "availableBank": ["run", "jump", "walk", "hop"],
+  "exerciseItems": [
+    {
+      "itemNumber": 1,
+      "exerciseType": "word_bank",
+      "instructions": "Use the word bank to complete the sentences.",
+      "questionText": "I like to _____ in the park.",
+      "blankLocations": [11],
+      "choices": null,
+      "wordBank": ["run", "jump", "walk", "hop"],
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "run", "source": "printed", "location": "blank", "confidence": 0.92 }
+      ],
+      "handwrittenAnswers": [],
+      "printedAnswers": [
+        { "value": "run", "source": "printed", "location": "blank", "confidence": 0.92 }
+      ],
+      "answerMarkers": [],
+      "confidence": 0.92,
+      "pageLabel": "Page 12",
+      "sourceOrder": 1
+    },
+    {
+      "itemNumber": 2,
+      "exerciseType": "word_bank",
+      "instructions": "Use the word bank to complete the sentences.",
+      "questionText": "The frog can _____ high.",
+      "blankLocations": [16],
+      "choices": null,
+      "wordBank": ["run", "jump", "walk", "hop"],
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "jump", "source": "handwritten", "location": "blank", "confidence": 0.88 }
+      ],
+      "handwrittenAnswers": [
+        { "value": "jump", "source": "handwritten", "location": "blank", "confidence": 0.88 }
+      ],
+      "printedAnswers": [],
+      "answerMarkers": [],
+      "confidence": 0.88,
+      "pageLabel": "Page 12",
+      "sourceOrder": 2
+    }
+  ]
+}

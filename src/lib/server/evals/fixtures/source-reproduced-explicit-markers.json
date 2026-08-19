@@ -1,0 +1,46 @@
+{
+  "name": "source-reproduced-explicit-markers",
+  "description": "Exercise with explicit answer markers like 'Answer: A'",
+  "pageInstructions": ["Answer each question."],
+  "availableBank": [],
+  "exerciseItems": [
+    {
+      "itemNumber": 1,
+      "exerciseType": "multiple_choice",
+      "instructions": "Answer each question.",
+      "questionText": "2 + 2 = ?",
+      "blankLocations": [],
+      "choices": ["A. 3", "B. 4", "C. 5", "D. 6"],
+      "wordBank": null,
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "B", "source": "marker", "location": "marker_text", "confidence": 0.99 }
+      ],
+      "handwrittenAnswers": [],
+      "printedAnswers": [],
+      "answerMarkers": ["Answer: B"],
+      "confidence": 0.99,
+      "pageLabel": "Page 21",
+      "sourceOrder": 1
+    },
+    {
+      "itemNumber": 2,
+      "exerciseType": "fill_blank",
+      "instructions": "Answer each question.",
+      "questionText": "The capital of France is _____.",
+      "blankLocations": [26],
+      "choices": null,
+      "wordBank": null,
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "Paris", "source": "marker", "location": "marker_text", "confidence": 0.98 }
+      ],
+      "handwrittenAnswers": [],
+      "printedAnswers": [],
+      "answerMarkers": ["Answer: Paris"],
+      "confidence": 0.98,
+      "pageLabel": "Page 21",
+      "sourceOrder": 2
+    }
+  ]
+}

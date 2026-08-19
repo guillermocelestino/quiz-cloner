@@ -1,0 +1,226 @@
+.layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: var(--space-6);
+  align-items: start;
+}
+
+.sidePanel {
+  position: sticky;
+  top: 80px;
+}
+
+.actionsCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.statsRow {
+  display: flex;
+  gap: var(--space-4);
+}
+.statItem {
+  display: flex;
+  flex-direction: column;
+}
+.statNum {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+.statLbl {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  font-family: var(--font-mono);
+}
+
+.btnStack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+}
+
+/* ---------- The printed worksheet (light theme) ---------- */
+.worksheet {
+  background: #ffffff;
+  color: #111111;
+  border-radius: var(--radius-md);
+  padding: 48px;
+  font-family: var(--font-inter);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  min-height: 600px;
+}
+
+.wsHeader {
+  text-align: center;
+  border-bottom: 2px solid #111111;
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+}
+.wsSubject {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: #666666;
+  font-weight: 600;
+}
+.wsTitle {
+  font-size: 28px;
+  color: #111111;
+  margin: 4px 0;
+  letter-spacing: -0.02em;
+}
+.wsNameRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #333333;
+  margin-top: 12px;
+  gap: 24px;
+}
+.wsLine {
+  display: inline-block;
+  width: 220px;
+  border-bottom: 1px solid #333333;
+}
+.wsLineShort {
+  display: inline-block;
+  width: 120px;
+  border-bottom: 1px solid #333333;
+}
+
+.wsSection {
+  margin-bottom: 28px;
+}
+.wsSectionTitle {
+  font-size: 17px;
+  color: #111111;
+  background: #f0f0f0;
+  padding: 6px 10px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+}
+
+.wsQuestion {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #111111;
+}
+.wsNumber {
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.wsQBody {
+  flex: 1;
+}
+.wsQText {
+  margin-bottom: 6px;
+}
+.wsChoices {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.wsChoiceLetter {
+  font-weight: 600;
+}
+.wsAnswerLine {
+  border-bottom: 1px solid #555555;
+  height: 22px;
+  margin-top: 6px;
+}
+.wsTf {
+  color: #555555;
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+.wsFooter {
+  text-align: center;
+  margin-top: 32px;
+  font-size: 15px;
+  color: #444444;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+  .sidePanel {
+    position: static;
+  }
+}
+@media (max-width: 560px) {
+  .worksheet {
+    padding: 24px;
+  }
+  .wsTitle {
+    font-size: 22px;
+  }
+}
+
+.wsQuestionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.deleteBtn {
+  background: transparent;
+  border: 1px solid #e5e7eb;
+  color: #6b7280;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  opacity: 0.7;
+}
+
+.deleteBtn:hover {
+  background: #fee2e2;
+  border-color: #fca5a5;
+  color: #dc2626;
+  opacity: 1;
+}
+
+.toastBanner {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: #111827;
+  color: #ffffff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 100;
+}
+
+.toastClose {
+  background: transparent;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 0 4px;
+}
+
+.toastClose:hover {
+  color: #ffffff;
+}

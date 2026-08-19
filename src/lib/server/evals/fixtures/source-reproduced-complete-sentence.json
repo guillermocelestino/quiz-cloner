@@ -1,0 +1,50 @@
+{
+  "name": "source-reproduced-complete-sentence",
+  "description": "Complete the sentence exercise with first letter clues",
+  "pageInstructions": ["Complete each sentence. The first letter is given."],
+  "availableBank": [],
+  "exerciseItems": [
+    {
+      "itemNumber": 1,
+      "exerciseType": "complete_sentence",
+      "instructions": "Complete each sentence. The first letter is given.",
+      "questionText": "The b _ _ _ can fly.",
+      "blankLocations": [4, 6, 8],
+      "choices": null,
+      "wordBank": null,
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "bird", "source": "printed", "location": "blank", "confidence": 0.94 }
+      ],
+      "handwrittenAnswers": [],
+      "printedAnswers": [
+        { "value": "bird", "source": "printed", "location": "blank", "confidence": 0.94 }
+      ],
+      "answerMarkers": [],
+      "confidence": 0.94,
+      "pageLabel": "Page 15",
+      "sourceOrder": 1
+    },
+    {
+      "itemNumber": 2,
+      "exerciseType": "complete_sentence",
+      "instructions": "Complete each sentence. The first letter is given.",
+      "questionText": "The d _ _ _ barks loud.",
+      "blankLocations": [4, 6, 8],
+      "choices": null,
+      "wordBank": null,
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "dog", "source": "handwritten", "location": "blank", "confidence": 0.87 }
+      ],
+      "handwrittenAnswers": [
+        { "value": "dog", "source": "handwritten", "location": "blank", "confidence": 0.87 }
+      ],
+      "printedAnswers": [],
+      "answerMarkers": [],
+      "confidence": 0.87,
+      "pageLabel": "Page 15",
+      "sourceOrder": 2
+    }
+  ]
+}

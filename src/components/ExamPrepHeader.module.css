@@ -1,0 +1,93 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.title {
+  font-size: 22px;
+  margin-top: 2px;
+}
+
+.stepper {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+.stepWrap {
+  display: flex;
+  align-items: center;
+}
+
+.step {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  color: var(--color-text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  transition: background-color var(--speed) ease, color var(--speed) ease;
+}
+.step:hover {
+  text-decoration: none;
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+}
+
+.stepDot {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+  font-family: var(--font-mono);
+  background-color: var(--color-surface-elevated);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+}
+
+.activeStep {
+  color: var(--color-text-primary);
+}
+.activeStep .stepDot {
+  background-color: var(--color-orange);
+  border-color: var(--color-orange);
+  color: #0d1117;
+}
+
+.done {
+  color: var(--color-success);
+}
+.done .stepDot {
+  background-color: var(--color-success-bg);
+  border-color: var(--color-success);
+  color: var(--color-success);
+}
+
+.stepLine {
+  width: 28px;
+  height: 1px;
+  background-color: var(--color-border);
+}
+
+@media (max-width: 720px) {
+  .stepLine {
+    display: none;
+  }
+  .stepLabel {
+    display: none;
+  }
+  .stepper {
+    gap: var(--space-1);
+  }
+}

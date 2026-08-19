@@ -1,0 +1,29 @@
+{
+  "name": "source-reproduced-answers-in-choices",
+  "description": "Multiple choice with the correct choice filled in",
+  "pageInstructions": ["Choose the correct word."],
+  "availableBank": [],
+  "exerciseItems": [
+    {
+      "itemNumber": 1,
+      "exerciseType": "multiple_choice",
+      "instructions": "Choose the correct word.",
+      "questionText": "The cat says ____.",
+      "blankLocations": [15],
+      "choices": ["A. meow", "B. woof", "C. moo", "D. tweet"],
+      "wordBank": null,
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "A. meow", "source": "printed", "location": "choice", "confidence": 0.94 }
+      ],
+      "handwrittenAnswers": [],
+      "printedAnswers": [
+        { "value": "A. meow", "source": "printed", "location": "choice", "confidence": 0.94 }
+      ],
+      "answerMarkers": ["A. meow"],
+      "confidence": 0.94,
+      "pageLabel": "Page 18",
+      "sourceOrder": 1
+    }
+  ]
+}

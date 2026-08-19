@@ -1,0 +1,48 @@
+{
+  "name": "source-reproduced-multiple-choice",
+  "description": "Multiple choice exercise with correct answer marked",
+  "pageInstructions": ["Choose the correct answer."],
+  "availableBank": [],
+  "exerciseItems": [
+    {
+      "itemNumber": 1,
+      "exerciseType": "multiple_choice",
+      "instructions": "Choose the correct answer.",
+      "questionText": "What animal says 'meow'?",
+      "blankLocations": [],
+      "choices": ["A. Dog", "B. Cat", "C. Bird", "D. Fish"],
+      "wordBank": null,
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "B", "source": "marker", "location": "marker_text", "confidence": 0.98 }
+      ],
+      "handwrittenAnswers": [],
+      "printedAnswers": [],
+      "answerMarkers": ["Answer: B"],
+      "confidence": 0.98,
+      "pageLabel": "Page 11",
+      "sourceOrder": 1
+    },
+    {
+      "itemNumber": 2,
+      "exerciseType": "multiple_choice",
+      "instructions": "Choose the correct answer.",
+      "questionText": "What animal says 'woof'?",
+      "blankLocations": [],
+      "choices": ["A. Cat", "B. Bird", "C. Dog", "D. Fish"],
+      "wordBank": null,
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "C", "source": "handwritten", "location": "choice", "confidence": 0.85 }
+      ],
+      "handwrittenAnswers": [
+        { "value": "C", "source": "handwritten", "location": "choice", "confidence": 0.85 }
+      ],
+      "printedAnswers": [],
+      "answerMarkers": ["✓ C"],
+      "confidence": 0.85,
+      "pageLabel": "Page 11",
+      "sourceOrder": 2
+    }
+  ]
+}

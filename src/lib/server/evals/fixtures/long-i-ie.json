@@ -1,0 +1,65 @@
+[
+  {
+    "id": "content-longi-1",
+    "factKind": "ExerciseItem",
+    "content": "b _ _ _ _",
+    "sentence": "b _ _ _ _",
+    "blankToken": "b _ _ _ _",
+    "firstLetterClue": "b",
+    "letterCount": 5,
+    "answerHint": "(12th)",
+    "proposedAnswer": "bride",
+    "wordBank": null,
+    "pageLabel": "Page 2",
+    "included": true,
+    "sourceOrder": 1
+  },
+  {
+    "id": "content-longi-2",
+    "factKind": "ExerciseItem",
+    "content": "p _ _ _ _",
+    "sentence": "p _ _ _ _",
+    "blankToken": "p _ _ _ _",
+    "firstLetterClue": "p",
+    "letterCount": 5,
+    "answerHint": "(reward)",
+    "proposedAnswer": "prize",
+    "wordBank": null,
+    "pageLabel": "Page 2",
+    "included": true,
+    "sourceOrder": 2
+  },
+  {
+    "id": "content-longi-3",
+    "factKind": "ExerciseItem",
+    "content": "p _ _ _ _",
+    "sentence": "p _ _ _ _",
+    "blankToken": "p _ _ _ _",
+    "firstLetterClue": "p",
+    "letterCount": 5,
+    "answerHint": "(cost)",
+    "proposedAnswer": "price",
+    "wordBank": null,
+    "pageLabel": "Page 2",
+    "included": true,
+    "sourceOrder": 3
+  },
+  {
+    "id": "content-longi-4",
+    "factKind": "DeclarativeFact",
+    "content": "A bride gets married on her wedding day.",
+    "sentence": "A bride gets married on her wedding day.",
+    "pageLabel": "Page 2",
+    "included": true,
+    "sourceOrder": 4
+  },
+  {
+    "id": "content-longi-5",
+    "factKind": "DeclarativeFact",
+    "content": "A prize is won in a contest.",
+    "sentence": "A prize is won in a contest.",
+    "pageLabel": "Page 2",
+    "included": true,
+    "sourceOrder": 5
+  }
+]

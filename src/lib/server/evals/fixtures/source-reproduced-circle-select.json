@@ -1,0 +1,50 @@
+{
+  "name": "source-reproduced-circle-select",
+  "description": "Circle the correct word exercise",
+  "pageInstructions": ["Circle the correct word in each sentence."],
+  "availableBank": [],
+  "exerciseItems": [
+    {
+      "itemNumber": 1,
+      "exerciseType": "circle_select",
+      "instructions": "Circle the correct word in each sentence.",
+      "questionText": "The (cat / dog) can meow.",
+      "blankLocations": [4, 9],
+      "choices": ["cat", "dog"],
+      "wordBank": null,
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "cat", "source": "handwritten", "location": "choice", "confidence": 0.91 }
+      ],
+      "handwrittenAnswers": [
+        { "value": "cat", "source": "handwritten", "location": "choice", "confidence": 0.91 }
+      ],
+      "printedAnswers": [],
+      "answerMarkers": ["cat"],
+      "confidence": 0.91,
+      "pageLabel": "Page 16",
+      "sourceOrder": 1
+    },
+    {
+      "itemNumber": 2,
+      "exerciseType": "circle_select",
+      "instructions": "Circle the correct word in each sentence.",
+      "questionText": "The (bird / fish) can fly.",
+      "blankLocations": [4, 9],
+      "choices": ["bird", "fish"],
+      "wordBank": null,
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "bird", "source": "printed", "location": "choice", "confidence": 0.93 }
+      ],
+      "handwrittenAnswers": [],
+      "printedAnswers": [
+        { "value": "bird", "source": "printed", "location": "choice", "confidence": 0.93 }
+      ],
+      "answerMarkers": ["bird"],
+      "confidence": 0.93,
+      "pageLabel": "Page 16",
+      "sourceOrder": 2
+    }
+  ]
+}

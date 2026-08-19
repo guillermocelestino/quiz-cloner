@@ -1,0 +1,71 @@
+{
+  "name": "source-reproduced-fill-blank",
+  "description": "Fill-in-the-blank exercise with printed answers in blanks",
+  "pageInstructions": ["Complete each sentence using the words in the box."],
+  "availableBank": ["cat", "dog", "bird", "fish"],
+  "exerciseItems": [
+    {
+      "itemNumber": 1,
+      "exerciseType": "fill_blank",
+      "instructions": "Complete each sentence using the words in the box.",
+      "questionText": "The _____ can fly.",
+      "blankLocations": [4],
+      "choices": null,
+      "wordBank": ["cat", "dog", "bird", "fish"],
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "bird", "source": "printed", "location": "blank", "confidence": 0.95 }
+      ],
+      "handwrittenAnswers": [],
+      "printedAnswers": [
+        { "value": "bird", "source": "printed", "location": "blank", "confidence": 0.95 }
+      ],
+      "answerMarkers": [],
+      "confidence": 0.95,
+      "pageLabel": "Page 10",
+      "sourceOrder": 1
+    },
+    {
+      "itemNumber": 2,
+      "exerciseType": "fill_blank",
+      "instructions": "Complete each sentence using the words in the box.",
+      "questionText": "The _____ can bark.",
+      "blankLocations": [4],
+      "choices": null,
+      "wordBank": ["cat", "dog", "bird", "fish"],
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "dog", "source": "printed", "location": "blank", "confidence": 0.93 }
+      ],
+      "handwrittenAnswers": [],
+      "printedAnswers": [
+        { "value": "dog", "source": "printed", "location": "blank", "confidence": 0.93 }
+      ],
+      "answerMarkers": [],
+      "confidence": 0.93,
+      "pageLabel": "Page 10",
+      "sourceOrder": 2
+    },
+    {
+      "itemNumber": 3,
+      "exerciseType": "fill_blank",
+      "instructions": "Complete each sentence using the words in the box.",
+      "questionText": "The _____ can swim.",
+      "blankLocations": [4],
+      "choices": null,
+      "wordBank": ["cat", "dog", "bird", "fish"],
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "fish", "source": "printed", "location": "blank", "confidence": 0.9 }
+      ],
+      "handwrittenAnswers": [],
+      "printedAnswers": [
+        { "value": "fish", "source": "printed", "location": "blank", "confidence": 0.9 }
+      ],
+      "answerMarkers": [],
+      "confidence": 0.9,
+      "pageLabel": "Page 10",
+      "sourceOrder": 3
+    }
+  ]
+}

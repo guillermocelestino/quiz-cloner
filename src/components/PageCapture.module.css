@@ -1,0 +1,124 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.dropzone {
+  border: 2px dashed var(--color-border);
+  border-radius: var(--radius-md);
+  background-color: var(--color-surface);
+  padding: var(--space-8) var(--space-4);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: border-color var(--speed) ease, background-color var(--speed) ease;
+}
+.dropzone.dragging {
+  border-color: var(--color-primary);
+  background-color: rgba(47, 129, 247, 0.06);
+}
+
+.dropIcon {
+  font-size: 32px;
+  margin-bottom: var(--space-2);
+}
+
+.dropText {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.dropActions {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.queueHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--space-2);
+}
+
+.queue {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-4);
+}
+
+.pageCard {
+  padding: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.thumbWrap {
+  position: relative;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background-color: #000;
+  aspect-ratio: 3 / 4;
+}
+
+.thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.pageIndex {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  background-color: rgba(13, 17, 23, 0.85);
+  color: var(--color-text-primary);
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+}
+
+.pageBody {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.labelInput {
+  height: 30px;
+  font-size: 13px;
+}
+
+.flags {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.flags li {
+  color: var(--color-warning);
+}
+
+.actionBar {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--space-2);
+}
+
+@media (max-width: 560px) {
+  .actionBar {
+    justify-content: stretch;
+  }
+  .actionBar :global(.btn) {
+    width: 100%;
+  }
+}

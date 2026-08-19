@@ -1,0 +1,191 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5, 20px);
+}
+
+.modeSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-bottom: var(--space-2);
+}
+
+.modeHeader {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.modeTitle {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.modeSubtitle {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  line-height: 1.4;
+}
+
+.modeGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3);
+  margin-top: var(--space-1);
+}
+
+.modeCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-surface-elevated);
+  cursor: pointer;
+  transition: border-color var(--speed) ease, background-color var(--speed) ease, box-shadow var(--speed) ease;
+  user-select: none;
+}
+
+.modeCard:hover {
+  border-color: var(--color-border-hover);
+  background-color: var(--color-modal);
+}
+
+.modeCardSelected {
+  border-color: var(--color-primary);
+  border-width: 2px;
+  padding: calc(var(--space-4) - 1px);
+  background-color: rgba(47, 129, 247, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(47, 129, 247, 0.2);
+}
+
+.modeCardSelected:hover {
+  background-color: rgba(47, 129, 247, 0.12);
+  border-color: var(--color-primary-hover);
+}
+
+.modeCard:focus-within {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.radioInput {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.cardTitleRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.radioCircle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid var(--color-border-hover);
+  background-color: var(--color-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: border-color var(--speed) ease, background-color var(--speed) ease;
+}
+
+.radioCircleSelected {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+}
+
+.radioDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.cardTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.badgeGenerated {
+  background-color: rgba(47, 129, 247, 0.15);
+  color: var(--color-accent-blue);
+  border: 1px solid rgba(47, 129, 247, 0.3);
+}
+
+.badgeSource {
+  background-color: rgba(63, 185, 80, 0.15);
+  color: var(--color-success);
+  border: 1px solid rgba(63, 185, 80, 0.3);
+}
+
+.cardDescription {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  line-height: 1.45;
+  margin: 0;
+  padding-left: calc(18px + var(--space-2));
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--space-2);
+}
+
+@media (max-width: 640px) {
+  .grid,
+  .modeGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .cardDescription {
+    padding-left: 0;
+    margin-top: var(--space-1);
+  }
+
+  .cardTitleRow {
+    flex-wrap: wrap;
+  }
+}
+

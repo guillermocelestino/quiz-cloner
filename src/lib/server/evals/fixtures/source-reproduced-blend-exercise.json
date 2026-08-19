@@ -1,0 +1,71 @@
+{
+  "name": "source-reproduced-blend-exercise",
+  "description": "Phonics blend exercise with blend prefixes in word bank",
+  "pageInstructions": ["Write the missing blend to complete each word."],
+  "availableBank": ["bl-", "cl-", "fl-", "gl-", "pl-", "sl-"],
+  "exerciseItems": [
+    {
+      "itemNumber": 1,
+      "exerciseType": "fill_blank",
+      "instructions": "Write the missing blend to complete each word.",
+      "questionText": "_____ ates",
+      "blankLocations": [0],
+      "choices": null,
+      "wordBank": ["bl-", "cl-", "fl-", "gl-", "pl-", "sl-"],
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "pl-", "source": "printed", "location": "blank", "confidence": 0.96 }
+      ],
+      "handwrittenAnswers": [],
+      "printedAnswers": [
+        { "value": "pl-", "source": "printed", "location": "blank", "confidence": 0.96 }
+      ],
+      "answerMarkers": [],
+      "confidence": 0.96,
+      "pageLabel": "Page 22",
+      "sourceOrder": 1
+    },
+    {
+      "itemNumber": 2,
+      "exerciseType": "fill_blank",
+      "instructions": "Write the missing blend to complete each word.",
+      "questionText": "_____ oud",
+      "blankLocations": [0],
+      "choices": null,
+      "wordBank": ["bl-", "cl-", "fl-", "gl-", "pl-", "sl-"],
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "cl-", "source": "handwritten", "location": "blank", "confidence": 0.88 }
+      ],
+      "handwrittenAnswers": [
+        { "value": "cl-", "source": "handwritten", "location": "blank", "confidence": 0.88 }
+      ],
+      "printedAnswers": [],
+      "answerMarkers": [],
+      "confidence": 0.88,
+      "pageLabel": "Page 22",
+      "sourceOrder": 2
+    },
+    {
+      "itemNumber": 3,
+      "exerciseType": "fill_blank",
+      "instructions": "Write the missing blend to complete each word.",
+      "questionText": "_____ ower",
+      "blankLocations": [0],
+      "choices": null,
+      "wordBank": ["bl-", "cl-", "fl-", "gl-", "pl-", "sl-"],
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "fl-", "source": "printed", "location": "blank", "confidence": 0.94 }
+      ],
+      "handwrittenAnswers": [],
+      "printedAnswers": [
+        { "value": "fl-", "source": "printed", "location": "blank", "confidence": 0.94 }
+      ],
+      "answerMarkers": [],
+      "confidence": 0.94,
+      "pageLabel": "Page 22",
+      "sourceOrder": 3
+    }
+  ]
+}

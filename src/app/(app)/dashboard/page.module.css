@@ -1,0 +1,91 @@
+.hero {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+  flex-wrap: wrap;
+}
+
+.heroTitle {
+  font-size: 28px;
+  margin-bottom: var(--space-2);
+}
+
+.heroActions {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-4);
+}
+
+.studentGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-4);
+}
+
+.studentCard {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  text-decoration: none;
+  color: inherit;
+}
+.studentCard:hover {
+  text-decoration: none;
+}
+
+.studentAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-lg);
+  background-color: var(--color-surface-elevated);
+  border: 1px solid var(--color-border);
+  color: var(--color-orange);
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.studentInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.studentName {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.prepRow {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  border-left: 2px solid transparent;
+}
+.prepRow:hover {
+  text-decoration: none;
+  border-left-color: var(--color-orange);
+}
+
+.prepTitle {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    align-items: flex-start;
+  }
+  .heroTitle {
+    font-size: 22px;
+  }
+}

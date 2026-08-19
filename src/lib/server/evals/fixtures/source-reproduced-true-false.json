@@ -1,0 +1,50 @@
+{
+  "name": "source-reproduced-true-false",
+  "description": "True/False exercise with answers marked",
+  "pageInstructions": ["Write T for True and F for False."],
+  "availableBank": [],
+  "exerciseItems": [
+    {
+      "itemNumber": 1,
+      "exerciseType": "true_false",
+      "instructions": "Write T for True and F for False.",
+      "questionText": "Birds can fly. _____",
+      "blankLocations": [17],
+      "choices": null,
+      "wordBank": null,
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "T", "source": "printed", "location": "blank", "confidence": 0.96 }
+      ],
+      "handwrittenAnswers": [],
+      "printedAnswers": [
+        { "value": "T", "source": "printed", "location": "blank", "confidence": 0.96 }
+      ],
+      "answerMarkers": [],
+      "confidence": 0.96,
+      "pageLabel": "Page 14",
+      "sourceOrder": 1
+    },
+    {
+      "itemNumber": 2,
+      "exerciseType": "true_false",
+      "instructions": "Write T for True and F for False.",
+      "questionText": "Fish can walk. _____",
+      "blankLocations": [15],
+      "choices": null,
+      "wordBank": null,
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "F", "source": "handwritten", "location": "blank", "confidence": 0.9 }
+      ],
+      "handwrittenAnswers": [
+        { "value": "F", "source": "handwritten", "location": "blank", "confidence": 0.9 }
+      ],
+      "printedAnswers": [],
+      "answerMarkers": [],
+      "confidence": 0.9,
+      "pageLabel": "Page 14",
+      "sourceOrder": 2
+    }
+  ]
+}

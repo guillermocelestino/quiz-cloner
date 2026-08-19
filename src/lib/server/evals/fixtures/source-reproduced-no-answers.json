@@ -1,0 +1,42 @@
+{
+  "name": "source-reproduced-no-answers",
+  "description": "Clean exercise page with no answers filled in (teacher's copy)",
+  "pageInstructions": ["Complete each sentence using the words in the box."],
+  "availableBank": ["big", "small", "fast", "slow"],
+  "exerciseItems": [
+    {
+      "itemNumber": 1,
+      "exerciseType": "fill_blank",
+      "instructions": "Complete each sentence using the words in the box.",
+      "questionText": "The elephant is _____.",
+      "blankLocations": [15],
+      "choices": null,
+      "wordBank": ["big", "small", "fast", "slow"],
+      "matchingPairs": null,
+      "detectedAnswers": [],
+      "handwrittenAnswers": [],
+      "printedAnswers": [],
+      "answerMarkers": [],
+      "confidence": 0.98,
+      "pageLabel": "Page 20",
+      "sourceOrder": 1
+    },
+    {
+      "itemNumber": 2,
+      "exerciseType": "fill_blank",
+      "instructions": "Complete each sentence using the words in the box.",
+      "questionText": "The mouse is _____.",
+      "blankLocations": [13],
+      "choices": null,
+      "wordBank": ["big", "small", "fast", "slow"],
+      "matchingPairs": null,
+      "detectedAnswers": [],
+      "handwrittenAnswers": [],
+      "printedAnswers": [],
+      "answerMarkers": [],
+      "confidence": 0.98,
+      "pageLabel": "Page 20",
+      "sourceOrder": 2
+    }
+  ]
+}

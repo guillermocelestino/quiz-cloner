@@ -1,0 +1,33 @@
+{
+  "name": "source-reproduced-matching",
+  "description": "Matching exercise with left/right pairs",
+  "pageInstructions": ["Match the animal to its sound."],
+  "availableBank": [],
+  "exerciseItems": [
+    {
+      "itemNumber": 1,
+      "exerciseType": "matching",
+      "instructions": "Match the animal to its sound.",
+      "questionText": "Draw lines to match each animal with its sound.",
+      "blankLocations": [],
+      "choices": null,
+      "wordBank": null,
+      "matchingPairs": [
+        { "left": "Dog", "right": "Woof" },
+        { "left": "Cat", "right": "Meow" },
+        { "left": "Bird", "right": "Tweet" },
+        { "left": "Cow", "right": "Moo" }
+      ],
+      "detectedAnswers": [],
+      "handwrittenAnswers": [
+        { "value": "Dog → Woof", "source": "handwritten", "location": "marker_text", "confidence": 0.9 },
+        { "value": "Cat → Meow", "source": "handwritten", "location": "marker_text", "confidence": 0.88 }
+      ],
+      "printedAnswers": [],
+      "answerMarkers": ["Dog → Woof", "Cat → Meow"],
+      "confidence": 0.89,
+      "pageLabel": "Page 13",
+      "sourceOrder": 1
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "source-reproduced-mixed-types",
+  "description": "Mixed exercise types on a single page",
+  "pageInstructions": ["Complete the exercises below."],
+  "availableBank": ["apple", "banana", "orange", "grape"],
+  "exerciseItems": [
+    {
+      "itemNumber": 1,
+      "exerciseType": "fill_blank",
+      "instructions": "Fill in the blank with a word from the box.",
+      "questionText": "I eat an _____ for a snack.",
+      "blankLocations": [9],
+      "choices": null,
+      "wordBank": ["apple", "banana", "orange", "grape"],
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "apple", "source": "printed", "location": "blank", "confidence": 0.9 }
+      ],
+      "handwrittenAnswers": [],
+      "printedAnswers": [
+        { "value": "apple", "source": "printed", "location": "blank", "confidence": 0.9 }
+      ],
+      "answerMarkers": [],
+      "confidence": 0.9,
+      "pageLabel": "Page 17",
+      "sourceOrder": 1
+    },
+    {
+      "itemNumber": 2,
+      "exerciseType": "multiple_choice",
+      "instructions": "Choose the correct answer.",
+      "questionText": "Which fruit is yellow?",
+      "blankLocations": [],
+      "choices": ["A. Apple", "B. Banana", "C. Orange", "D. Grape"],
+      "wordBank": null,
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "B", "source": "marker", "location": "marker_text", "confidence": 0.97 }
+      ],
+      "handwrittenAnswers": [],
+      "printedAnswers": [],
+      "answerMarkers": ["Answer: B"],
+      "confidence": 0.97,
+      "pageLabel": "Page 17",
+      "sourceOrder": 2
+    },
+    {
+      "itemNumber": 3,
+      "exerciseType": "true_false",
+      "instructions": "Write T for True, F for False.",
+      "questionText": "Bananas are blue. _____",
+      "blankLocations": [18],
+      "choices": null,
+      "wordBank": null,
+      "matchingPairs": null,
+      "detectedAnswers": [
+        { "value": "F", "source": "handwritten", "location": "blank", "confidence": 0.89 }
+      ],
+      "handwrittenAnswers": [
+        { "value": "F", "source": "handwritten", "location": "blank", "confidence": 0.89 }
+      ],
+      "printedAnswers": [],
+      "answerMarkers": [],
+      "confidence": 0.89,
+      "pageLabel": "Page 17",
+      "sourceOrder": 3
+    }
+  ]
+}
